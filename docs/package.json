@@ -1,0 +1,22 @@
+{
+  "name": "docs",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mapbox/rehype-prism": "^0.8.0",
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "react": "link:../node_module/react",
+    "react-dom": "link:../node_module/react-dom",
+    "rehype-highlight": "^5.0.1",
+    "vite-plugin-mdx": "^3.5.10"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "link:../node_module/@vitejs/plugin-react",
+    "vite": "^2.7.2"
+  }
+}
